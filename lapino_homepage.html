@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ラピノ - クリエイティブマーケティング</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .hero {
+            background: url('hero_image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            font-size: 32px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .service-box {
+            background: #444;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 250px;
+        }
+        .contact-form {
+            background: #444;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            width: 50%;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #666;
+            border-radius: 5px;
+            background: #222;
+            color: white;
+        }
+        button {
+            background: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+<header>ラピノ - クリエイティブマーケティング</header>
+
+<section class="hero">
+    SNSとAIの力を活用し、あなたのビジネスを加速させる
+</section>
+
+<section>
+    <h2>サービス</h2>
+    <div class="services">
+        <div class="service-box">TikTok運用代行</div>
+        <div class="service-box">広告代理サービス</div>
+        <div class="service-box">動画編集</div>
+        <div class="service-box">パワーポイント作成</div>
+    </div>
+</section>
+
+<section>
+    <h2>お問い合わせ</h2>
+    <div class="contact-form">
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="お名前" required>
+            <input type="email" name="email" placeholder="メールアドレス" required>
+            <textarea name="message" placeholder="お問い合わせ内容" rows="5" required></textarea>
+            <button type="submit">送信</button>
+        </form>
+    </div>
+</section>
+
+</body>
+</html>
